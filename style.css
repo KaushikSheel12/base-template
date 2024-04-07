@@ -1860,7 +1860,7 @@ h1,  h2,  h3,  h4,  h5,  h6{
 
 .rl:hover{
   --tw-border-opacity: 1;
-  border-color: rgb(78 107 255 / var(--tw-border-opacity));
+  border-color: var(--maroon);
 }
 
 .rl\/40:hover{
@@ -1874,7 +1874,7 @@ h1,  h2,  h3,  h4,  h5,  h6{
 
 .tl:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(78 107 255 / var(--tw-bg-opacity));
+  background-color:var(--maroon) !important;
 }
 
 .ul:hover{
