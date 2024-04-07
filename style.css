@@ -48,6 +48,9 @@
   --tw-content: '';
 }
 
+:root{
+  --maroon:#815AA6;
+}
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -213,7 +216,35 @@ select {
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Remove default button styles.
 */
+.cta{
+  background-color: var(--maroon) !important;
+  color: white !important;
+}
 
+/* Features */
+
+#features h2 {
+ text-align: center;
+ font-size: xx-large;
+ font-weight: bold;
+margin-bottom: 12px;
+}
+.features-desc{
+
+  text-align: center;
+  font-size: large;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 52px;
+}
+
+/* about */
+
+.about h2 {
+
+ font-size:x-large;
+line-height: 1.3;
+}
 button,
 [type='button'],
 [type='reset'],
@@ -223,9 +254,52 @@ button,
   background-image: none; /* 2 */
 }
 
+
+/*  */
+.section-title-text{
+  font-size: large;
+}
+
+
+/* pricing */
+
+.pricing-card{
+  display: flex;
+  justify-content: center;
+  min-width: 400px;
+}
+
+.title-desc{
+  font-size: large;
+}
+
+
+
+/* testimonials */
+
+.testimonial-slide{
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-slide img{
+  width:100% ;
+  height: 100%;
+  object-fit: cover;
+}
 /*
 Use the modern Firefox focus style for all focusable elements.
 */
+
+
+/* our values */
+
+.our-values > img{
+  object-fit: contain;
+  filter: invert(1);
+  width: 60px;
+  height: 60px;
+}
 
 :-moz-focusring {
   outline: auto;
@@ -331,7 +405,7 @@ menu {
 
 
 .logo{
-  scale: 1.3;
+  scale: 1.4;
 }
 
 
@@ -1648,7 +1722,7 @@ h1,  h2,  h3,  h4,  h5,  h6{
 }
 .mk{
   --tw-text-opacity: 1;
-  color: rgb(78 107 255 / var(--tw-text-opacity));
+  color: var(--maroon);
 }
 .nk{
   --tw-text-opacity: 1 !important;
